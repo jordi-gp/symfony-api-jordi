@@ -1,0 +1,216 @@
+<?php //resource_metadata_collection_062fff02eba54c3bfa7a88f30be05b51
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['ApiPlatform\\Metadata\\ApiResource'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('ApiPlatform\\Metadata\\ApiResource')),
+        clone ($p['ApiPlatform\\Metadata\\Operations'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('ApiPlatform\\Metadata\\Operations')),
+        clone ($p['ApiPlatform\\Metadata\\Get'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('ApiPlatform\\Metadata\\Get')),
+        clone ($p['ApiPlatform\\Metadata\\Link'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('ApiPlatform\\Metadata\\Link')),
+        clone ($p['ApiPlatform\\Metadata\\GetCollection'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('ApiPlatform\\Metadata\\GetCollection')),
+        clone ($p['ApiPlatform\\Metadata\\Put'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('ApiPlatform\\Metadata\\Put')),
+        clone $p['ApiPlatform\\Metadata\\Link'],
+        clone $p['ApiPlatform\\Metadata\\Link'],
+    ],
+    null,
+    [
+        'ApiPlatform\\Metadata\\ApiResource' => [
+            'operations' => [
+                $o[1],
+            ],
+            'shortName' => [
+                'Artista',
+            ],
+            'uriVariables' => [
+                [
+                    'id' => $o[7],
+                ],
+            ],
+            'class' => [
+                'App\\Entity\\Artista',
+            ],
+            'graphQlOperations' => [
+                [],
+            ],
+            'extraProperties' => [
+                [],
+            ],
+        ],
+        'ApiPlatform\\Metadata\\Operations' => [
+            'operations' => [
+                1 => [
+                    [
+                        '_api_/artistas/{id}.{_format}_get',
+                        $o[2],
+                    ],
+                    [
+                        '_api_/artistas.{_format}_get_collection',
+                        $o[4],
+                    ],
+                    [
+                        '_api_/artistas/{id}.{_format}_put',
+                        $o[5],
+                    ],
+                ],
+            ],
+        ],
+        'ApiPlatform\\Metadata\\Operation' => [
+            'shortName' => [
+                2 => 'Artista',
+                4 => 'Artista',
+                'Artista',
+            ],
+            'class' => [
+                2 => 'App\\Entity\\Artista',
+                4 => 'App\\Entity\\Artista',
+                'App\\Entity\\Artista',
+            ],
+            'filters' => [
+                2 => [],
+                4 => [],
+                [],
+            ],
+            'priority' => [
+                2 => 0,
+                4 => 1,
+                2,
+            ],
+            'name' => [
+                2 => '_api_/artistas/{id}.{_format}_get',
+                4 => '_api_/artistas.{_format}_get_collection',
+                '_api_/artistas/{id}.{_format}_put',
+            ],
+            'provider' => [
+                2 => 'ApiPlatform\\Doctrine\\Orm\\State\\ItemProvider',
+                4 => 'ApiPlatform\\Doctrine\\Orm\\State\\CollectionProvider',
+                'ApiPlatform\\Doctrine\\Orm\\State\\ItemProvider',
+            ],
+            'processor' => [
+                2 => 'api_platform.doctrine.orm.state.persist_processor',
+                4 => 'api_platform.doctrine.orm.state.persist_processor',
+                'api_platform.doctrine.orm.state.persist_processor',
+            ],
+            'extraProperties' => [
+                2 => [],
+                4 => [],
+                [],
+            ],
+        ],
+        'ApiPlatform\\Metadata\\HttpOperation' => [
+            'method' => [
+                2 => 'GET',
+                4 => 'GET',
+                'PUT',
+            ],
+            'uriTemplate' => [
+                2 => '/artistas/{id}.{_format}',
+                4 => '/artistas.{_format}',
+                '/artistas/{id}.{_format}',
+            ],
+            'inputFormats' => [
+                2 => [
+                    'jsonld' => [
+                        'application/ld+json',
+                    ],
+                    'json' => [
+                        'application/json',
+                    ],
+                    'html' => [
+                        'text/html',
+                    ],
+                ],
+                4 => [
+                    'jsonld' => [
+                        'application/ld+json',
+                    ],
+                    'json' => [
+                        'application/json',
+                    ],
+                    'html' => [
+                        'text/html',
+                    ],
+                ],
+                [
+                    'jsonld' => [
+                        'application/ld+json',
+                    ],
+                    'json' => [
+                        'application/json',
+                    ],
+                    'html' => [
+                        'text/html',
+                    ],
+                ],
+            ],
+            'outputFormats' => [
+                2 => [
+                    'jsonld' => [
+                        'application/ld+json',
+                    ],
+                    'json' => [
+                        'application/json',
+                    ],
+                    'html' => [
+                        'text/html',
+                    ],
+                ],
+                4 => [
+                    'jsonld' => [
+                        'application/ld+json',
+                    ],
+                    'json' => [
+                        'application/json',
+                    ],
+                    'html' => [
+                        'text/html',
+                    ],
+                ],
+                [
+                    'jsonld' => [
+                        'application/ld+json',
+                    ],
+                    'json' => [
+                        'application/json',
+                    ],
+                    'html' => [
+                        'text/html',
+                    ],
+                ],
+            ],
+            'uriVariables' => [
+                2 => [
+                    'id' => $o[3],
+                ],
+                5 => [
+                    'id' => $o[6],
+                ],
+            ],
+        ],
+        'ApiPlatform\\Metadata\\Link' => [
+            'parameterName' => [
+                3 => 'id',
+                6 => 'id',
+                'id',
+            ],
+            'fromClass' => [
+                3 => 'App\\Entity\\Artista',
+                6 => 'App\\Entity\\Artista',
+                'App\\Entity\\Artista',
+            ],
+            'identifiers' => [
+                3 => [
+                    'id',
+                ],
+                6 => [
+                    'id',
+                ],
+                [
+                    'id',
+                ],
+            ],
+        ],
+    ],
+    [
+        $o[0],
+    ],
+    []
+); }];

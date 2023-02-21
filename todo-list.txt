@@ -1,0 +1,12 @@
+1- Sol·licitar tots els recursos mostrant els camps més rellevants amb opció
+de filtratge per categoría, text i entre dues dates #Fet al 75%
+
+2- Sol·licitar un recurs amb els camps més rellevants #Pendent de revisar
+
+3- Crear un nou recurs, incloent-hi camps relacionats #Per fer
+
+4- Actualitzar un recurs #Per fer
+
+5- Esborrar un recurs #Per fer
+
+6- Sol·licitar usuaris, limitant els camps crítics (password, role, etc.) #Pendent de revisar
